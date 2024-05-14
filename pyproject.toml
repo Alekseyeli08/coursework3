@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "poetry -version"
+version = "poetry --version"
+description = "poetry --version"
+authors = ["poetry --version"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+poetry = "--version"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
