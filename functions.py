@@ -22,6 +22,7 @@ def output_format(item):
     return (f'{raw_date(date)} {desc} \n{from_}{to}\n{amo} {curr}')
 
 def raw_date(date):
+    """функция для преобразования формата даты"""
     date_raw = date[0:10].split(sep="-")
     return f"{date_raw[2]}.{date_raw[1]}.{date_raw[0]}"
 
