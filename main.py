@@ -8,6 +8,7 @@ def main():
 
         for i in range(5):
             print(output_format(sort_items[i]))
+            print()
 
 
 if __name__ == "__main__":
